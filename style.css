@@ -305,4 +305,8 @@ footer {
   margin-top: 10px;
   font-size: 1em;
 }
-
+h2{
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
