@@ -11,7 +11,7 @@ html, body {
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #f1f1f1, hsl(214, 65%, 68%)); /* Tu peux changer */
+  background: linear-gradient(to right, #f1f1f1, rgb(120, 166, 226)); /* Tu peux changer */
   color: #333;
   display: flex;
   flex-direction: column;
@@ -185,7 +185,7 @@ footer {
   max-width: 800px;
   margin: 50px auto;
   padding: 30px;
-  background-color: #bfdbfe; /* Bleu clair pour démarquer la section */
+  background-color: rgb(241, 245, 18); /* Bleu clair pour démarquer la section */
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
@@ -217,17 +217,19 @@ footer {
 
 .contact-form button {
   background-color: #1e40af; /* Bleu plus vif pour attirer l'attention */
-  color: white;
+  color: rgb(17, 17, 17);
   padding: 12px 20px;
   border: none;
-  border-radius: 6px;
+  border-radius: 16px;
   cursor: pointer;
   font-size: 16px;
-  transition: background 0.3s;
+  transition:background 0.3s;
+  
 }
 
 .contact-form button:hover {
   background-color: #1c3aa9;
+  
 }
 
 .infos-contact p {
